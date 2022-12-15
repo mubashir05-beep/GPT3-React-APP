@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Footer,
   Blog,
@@ -24,7 +25,6 @@ const App = () => (
     <CTA />
     <Blog />
     <Footer />
-    
   </div>
 );
 
