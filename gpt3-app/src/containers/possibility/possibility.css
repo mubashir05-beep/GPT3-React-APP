@@ -1,0 +1,123 @@
+.gpt3__possiblities {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 6rem;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+.gpt3__possiblities-headImg{
+ flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gpt3__possiblities-headImg img {
+  width: 100%;
+    height: 100%;
+}
+.gpt3__possibilities-text_Data {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  margin: 4rem 2rem;
+  gap: 12px;
+  flex: 1 1;
+}
+.gpt3__possibilities-text_Data h1{
+  font-weight: 800;
+  font-size: 32px;
+  max-width: 410px;
+  line-height: 38px;
+}
+.getStartedLink {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  color: var(--color-subtext);
+}
+.subText {
+  color: var(--color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.blueLink{
+    color: #71E5FF;
+    cursor: pointer;
+     font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+@media screen and (max-width:1050px) {
+    .gpt3__possiblities {
+  
+  margin: 4rem 6rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.gpt3__possiblities-headImg img {
+  width: 100%;
+    height: 100%;
+}
+}
+@media screen and (max-width: 850px) {
+ .gpt3__possiblities  {
+display: flex;
+  flex-direction: column;
+
+     margin: 4rem 6rem;
+ }
+ .gpt3__possibilities-text_Data {
+    margin: 1rem;
+ }
+ .gpt3__possiblities-headImg{
+ 
+ }
+ .gpt3__possiblities-headImg img {
+  width: 95%;
+    height: 100%;
+}
+}
+
+
+@media screen and (max-width: 650px) {
+   .gpt3__possiblities {
+    margin: 4rem 2rem;
+   }
+}
+
+@media screen and (max-width: 380px) {
+   .gpt3__possiblities {
+      margin: 4rem 2rem;
+      gap:12px;
+    }
+    .gpt3__possiblities-headImg img {
+  width: 90%;
+    height: 80%;
+}
+.gpt3__possibilities-text_Data h1{
+ 
+  font-size: 20px;
+  max-width: 410px;
+  line-height: 25px;
+}
+.getStartedLink {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.subText {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+.blueLink{
+     font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+}
