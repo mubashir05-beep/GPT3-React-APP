@@ -1,5 +1,8 @@
 # GPT3-React-APP
-
+To Run Locally :
+  1)Clone the repo 
+  2)cd into gpt3-app
+  3)then type npm run start
 Technologies & Techniques Used :
   1) React-JS
   2) Modern ES6 JavaScript
