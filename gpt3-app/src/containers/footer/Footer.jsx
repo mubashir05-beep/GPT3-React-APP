@@ -3,7 +3,7 @@ import './footer.css'
 import logo from '../../assets/logo.svg'
 const Footer = () => {
   return (
-    <div className="gpt3__footer-container section__margin ">
+    <div className="gpt3__footer-container ">
       <div className="gpt3__footer-container__content section__padding ">
         <h1 className="gradient__text">
           Do you want to step in to the
