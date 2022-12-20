@@ -1,5 +1,5 @@
-import React from 'react'
-import './cta.css'
+import React from "react";
+import "./cta.css";
 const CTA = () => {
   return (
     <div className="gpt3__cta-container section__padding">
@@ -12,6 +12,6 @@ const CTA = () => {
       </div>
     </div>
   );
-}
+};
 
-export default CTA
+export default CTA;

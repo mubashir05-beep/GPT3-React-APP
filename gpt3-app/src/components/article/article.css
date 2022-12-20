@@ -1,0 +1,117 @@
+
+.gpt3__article-container {
+  display: flex;
+  font-family: var(--font-family);
+  flex-direction: column;
+
+
+    width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.gpt3__article-container img {
+  width: 100%;
+height: fit-content;
+}
+.gpt3__article-content {
+  background: #042c54;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+flex: 1;
+  padding: 0.5rem 1rem;
+  
+}
+.gpt3__article-content h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+.gpt3__article-content h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .gpt3__cta-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 6rem;
+  }
+
+  .gpt3__cta-container__text {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .gpt3__article-content h5 {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 15px;
+  padding: 8px 0;
+}
+.gpt3__article-content h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+   padding: 6px 0;
+}
+}
+@media screen and (max-width: 450px) {
+  .gpt3__article-content h5 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.gpt3__article-content h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+   padding: 10px 0;
+}
+}
+
+
+/* @media screen and (max-width: 650px) {
+  .gpt3__possiblities {
+    margin: 4rem 2rem;
+  }
+  .gpt3__cta-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 2rem;
+  }
+
+  .gpt3__cta-container__text {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .gpt3__cta-container__text {
+    padding: 0.5em;
+  }
+  .gpt3__cta-container__text h2 {
+    font-size: 18px;
+  }
+  .gpt3__container__ctaBTN button {
+    border-radius: 40px;
+    width: 130px;
+    height: 50px;
+
+    background-color: black;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+  }
+} */
