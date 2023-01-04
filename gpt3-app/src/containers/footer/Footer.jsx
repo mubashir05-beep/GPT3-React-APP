@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="gpt3__footer-container__footer__copyright section__padding">
-        &#169; 2021 GPT-3. All rights reserved.
+        &#169; 2023 GPT-3. All rights reserved.
       </div>
     </div>
   );
